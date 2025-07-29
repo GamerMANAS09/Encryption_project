@@ -19,6 +19,7 @@ A work-in-progress Java project combining a custom substitution cipher with AES-
 - `CustomEncryptor.java`: Implements the substitution + XOR cipher
 - `AESEncryptor.java`: AES-GCM encryption using PBKDF2
 - `HybridCipher.java`: Orchestrates hybrid encryption/decryption
+- `TestHybrid.java`: For testing the code
 
 ---
 
