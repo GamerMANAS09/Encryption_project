@@ -1,5 +1,8 @@
 # 🚀 Hybrid Java Encryption System
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Educational](https://img.shields.io/badge/Purpose-Educational-blue?style=for-the-badge)
+
 A work-in-progress Java project combining a custom substitution cipher with AES-GCM encryption. Designed for learning and experimentation, with potential expansion toward production-grade hybrid cryptographic systems.
 
 ---
@@ -13,6 +16,7 @@ A work-in-progress Java project combining a custom substitution cipher with AES-
 - 🖥️ Console-based usage
 
 ---
+
 
 ## 📁 Project Structure
 
@@ -31,6 +35,25 @@ A work-in-progress Java project combining a custom substitution cipher with AES-
 
 ---
 
+## 🔧 Encryption Flow
+
+[Plain Text]
+|
+v
+[Substitution + XOR Cipher]
+|
+v
+[AES-GCM Encryption]
+|
+v
+[Base64 Encoded Output]
+
+
+Decryption reverses this pipeline step by step.
+
+
+---
+
 ## 🚦 Usage Example
 
 ```java
@@ -46,3 +69,9 @@ System.out.println("Decrypted: " + decrypted);
 ## 🤖 AI-Assisted Learning
 
 This project was coded with the help of AI tools to understand encryption concepts like XOR operations, data shuffling, block processing, and reversing. AI was also used to improve code clarity through better commenting and structural guidance. All implementation and logic were crafted through hands-on learning and experimentation.
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for **educational purposes only** and is currently a **work in progress**. It is **not suitable for real-world use** because the implemented encryption techniques are vulnerable to various attacks and do not meet the robustness of modern, peer-reviewed cryptographic standards. The goal is to explore and understand encryption concepts—not to provide production-grade security.
