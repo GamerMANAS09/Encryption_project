@@ -36,7 +36,7 @@ A work-in-progress Java project combining a custom substitution cipher with AES-
 ---
 
 ## 🔧 Encryption Flow
-
+```
 [Plain Text]
 |
 v
@@ -47,7 +47,7 @@ v
 |
 v
 [Base64 Encoded Output]
-
+```
 
 Decryption reverses this pipeline step by step.
 
