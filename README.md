@@ -68,7 +68,7 @@ System.out.println("Decrypted: " + decrypted);
 
 ## 🤖 AI-Assisted Learning
 
-This project was coded with the help of AI tools to understand encryption concepts like XOR operations, data shuffling, block processing, and reversing. AI was also used to improve code clarity through better commenting and structural guidance. All implementation and logic were crafted through hands-on learning and experimentation.
+This project was coded with the help of AI tools to understand encryption concepts like XOR operations, data shuffling, block processing, and reversing. AI was also used to improve code clarity and structural guidance. All implementation and logic were crafted through hands-on learning and experimentation.
 
 ---
 
